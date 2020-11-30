@@ -1,12 +1,5 @@
 import filereader from '../utils/filereader.js';
 
-filereader('input.txt').then((input) => {
-    solve(input);
-});
+const inputArray = filereader('input.txt');
 
-const solve = (input) => {
- console.log(input);
-};
-
-
-
+console.log(inputArray[0]);

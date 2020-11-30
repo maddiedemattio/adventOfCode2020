@@ -1,9 +1,8 @@
-import { promises } from 'fs';
+import { readFileSync, promises } from 'fs';
 
-const filereader = async (filePath) => {
+const filereader = (filePath) => {
     try {
-        let data = await promises.readFile(filePath, "utf-8");
-        return data;
+        return readFileSync(filePath, 'utf8').split('\n');
     } catch (e) {
         console.log("e", e);
     }
