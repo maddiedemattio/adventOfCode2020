@@ -1,7 +1,7 @@
 # AdventOfCode-2020
 
 ### Dependencies:
-node v14.15.1
+[Node LTS](https://nodejs.org/en/download)
 
 ### Running:
 
