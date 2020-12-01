@@ -9,7 +9,7 @@ const solve = () => {
     let totalSum = 0;
     inputArray.map((num) => {
         console.log(totalSum);
-        totalSum+= Math.floor(num/3)-2;
+        totalSum += Math.floor(num / 3) - 2;
     });
 
     console.log(totalSum);
