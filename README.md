@@ -1,6 +1,5 @@
 # Advent of Code - 2020
 
-Maddie's first attempt at coding :)
+My first real attempt at coding :) Hopefully I will learn a lot during this.
 
-### Language:
-JavaScript
+####I will be using JavaScript. 
